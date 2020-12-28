@@ -4,12 +4,18 @@
   "description": "A node js application to get revelup orderallinone data",
   "main": "index.js",
   "scripts": {
-  	"start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mazharul Islam",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.21.1",
+    "basic-ftp": "^4.6.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json2csv": "^5.0.5",
+    "puppeteer": "^5.4.1",
+    "uuidv4": "^6.2.6"
   }
 }
