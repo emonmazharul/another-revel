@@ -1,0 +1,15 @@
+{
+  "name": "revelup_orderallinone_data",
+  "version": "1.0.0",
+  "description": "A node js application to get revelup orderallinone data",
+  "main": "index.js",
+  "scripts": {
+  	"start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mazharul Islam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
