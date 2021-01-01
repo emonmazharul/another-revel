@@ -1,6 +1,5 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios');
-const objects_scraper = require('./objects_scraper');
 const fs = require('fs');
 const {Parser} = require('json2csv');
 
