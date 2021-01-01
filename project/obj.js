@@ -106,10 +106,11 @@ function createCSVFile(objects,MALL_CODE,TENANT_CODE) {
     let csv = json2csvParser.parse(arr);
     const lastIndex = csv.indexOf('TOTAL VALUE FOR CATERING');
     csv = csv.slice(lastIndex+25,).replace(/\"/g, '').slice(2,);
-    fs.writeFile('latestFile.csv', csv, (err) => {
-        if(err) console.log('file save error',err);
-        console.log('file saved')
-    })
+    // fs.writeFile('latestFile.csv', csv, (err) => {
+    //     if(err) console.log('file save error',err);
+    //     console.log('file saved')
+    // })
+    return csv;
 }
 
 module.exports = createCSVFile;

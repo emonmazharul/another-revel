@@ -77,10 +77,22 @@
 						</div>
 						<button class="btn btn-primary" type="submit">get data</button>
 					</form>
+					<div class="mt-3 mb-3">
+						<div class="mb-1">
+							<b class="text-success" id="server_info"></b>
+							<br>
+							<b class="text-danger" id="server_error"></b>
+						</div>
+						<button  class="btn btn-primary" id="download_button" disabled="true">Download File</button>
+						<button class="btn btn-secondary" id="upload_button" disabled="true">Upload File to FTP Sever</button>
+						<button class="btn btn-success" id="saveTask_button" style="display: none">Save Task</button>
+					</div>
 				</div>
 			</div>
 	</div>
+	<div id="ping_github"></div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/gh/alfg/ping.js@0.2.2/dist/ping.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
